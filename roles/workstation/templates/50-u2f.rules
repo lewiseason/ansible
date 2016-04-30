@@ -1,0 +1,2 @@
+# {{ ansible_managed }}
+ATTRS{idVendor}=="1050", TAG+="uaccess"
