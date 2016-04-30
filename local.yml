@@ -1,0 +1,8 @@
+---
+- hosts: workstations
+  roles:
+    - workstation
+
+- hosts: laptops
+  roles:
+    - laptop

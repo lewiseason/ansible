@@ -1,0 +1,11 @@
+[workstations]
+melrose
+
+[laptops]
+fidra
+
+[workstations:children]
+laptops
+
+[red61]
+fidra

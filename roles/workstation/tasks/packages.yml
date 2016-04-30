@@ -1,0 +1,55 @@
+---
+- name: Repositories
+  become: yes
+  package: name="{{ item }}" state=installed
+  with_items:
+    - https://repo.eason.io/rpm/eason-release.rpm
+
+- name: Packages
+  become: yes
+  package: name="{{ item }}" state=installed
+  with_items:
+    - cloc
+    - curl
+    - dmenu
+    - dnsmasq
+    - dunst
+    - gigolo
+    - gitg
+    - i3lock
+    - ipython
+    - jq
+    - keychain
+    - konsole
+    - mutt
+    - network-manager-applet
+    - nmap
+    - nodejs
+    - npm
+    - openbox
+    - pandoc
+    - pass
+    - psmisc
+    - python-pip
+    - python-virtualenvwrapper
+    - scrot
+    - sensible-utils
+    - sshuttle
+    - sxhkd
+    - tcpdump
+    - thunderbird
+    - thunderbird-enigmail
+    - tint2
+    - tmux
+    - unison240
+    - urlview
+    - vim
+    - vim-X11
+    - volumeicon
+    - w3m
+    - wget
+    - x2x
+    - xautolock
+    - xclip
+    - xsel
+    - zsh
