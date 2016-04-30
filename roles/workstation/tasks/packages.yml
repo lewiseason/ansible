@@ -4,6 +4,7 @@
   package: name="{{ item }}" state=installed
   with_items:
     - https://repo.eason.io/rpm/eason-release.rpm
+    - https://repo.eason.io/rpm/noarch/google-chrome-release-1-1.fc22.noarch.rpm
 
 - name: Packages
   become: yes
@@ -16,6 +17,7 @@
     - dunst
     - gigolo
     - gitg
+    - google-chrome-unstable
     - i3lock
     - ipython
     - jq
