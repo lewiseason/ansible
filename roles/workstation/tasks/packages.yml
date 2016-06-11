@@ -36,6 +36,11 @@
     - psmisc
     - python-pip
     - python-virtualenvwrapper
+    - rpm-build
+    - rpm-devel
+    - rpm-sign
+    - rpmdevtools
+    - rpmlint
     - scrot
     - sensible-utils
     - sshuttle
