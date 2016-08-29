@@ -57,6 +57,7 @@
     - volumeicon
     - w3m
     - wget
+    - wmctrl
     - x2x
     - xautolock
     - xclip
