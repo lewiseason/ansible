@@ -41,6 +41,7 @@
     - rpm-sign
     - rpmdevtools
     - rpmlint
+    - rxvt-unicode
     - scrot
     - sensible-utils
     - sshuttle
