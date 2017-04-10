@@ -3,9 +3,13 @@ melrose
 
 [laptops]
 fidra
+insh
 
 [workstations:children]
 laptops
 
 [red61]
 fidra
+
+[commsworld]
+insh
