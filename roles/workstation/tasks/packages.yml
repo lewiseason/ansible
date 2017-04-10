@@ -5,8 +5,8 @@
   with_items:
     - https://repo.eason.io/rpm/eason-release.rpm
     - https://repo.eason.io/rpm/noarch/google-chrome-release-1-1.fc22.noarch.rpm
-    - http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-23.noarch.rpm
-    - http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-23.noarch.rpm
+    - http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-{{ ansible_distribution_major_version }}.noarch.rpm
+    - http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ ansible_distribution_major_version }}.noarch.rpm
 
 - name: Spotify Repository
   become: yes
@@ -21,6 +21,7 @@
   become: yes
   package: name="{{ item }}" state=installed
   with_items:
+    - ack
     - cloc
     - curl
     - dmenu
