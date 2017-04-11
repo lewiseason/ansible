@@ -24,6 +24,7 @@
     - ack
     - arandr
     - cloc
+    - ctags
     - curl
     - dmenu
     - dnsmasq
