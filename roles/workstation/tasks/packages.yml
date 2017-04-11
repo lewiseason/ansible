@@ -22,6 +22,7 @@
   package: name="{{ item }}" state=installed
   with_items:
     - ack
+    - arandr
     - cloc
     - curl
     - dmenu
