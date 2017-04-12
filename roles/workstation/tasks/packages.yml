@@ -37,6 +37,7 @@
     - jq
     - keychain
     - konsole
+    - meld
     - mutt
     - network-manager-applet
     - nmap
